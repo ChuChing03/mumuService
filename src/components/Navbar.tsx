@@ -75,6 +75,16 @@ const Navbar = () => {
               </div>
               <div className="grid grid-cols-4 items-center gap-4">
                 <Link
+                  to="/service"
+                  className={`${buttonVariants({
+                    variant: "link",
+                  })} col-span-4`}
+                >
+                  <p className="text-3xl">客服系統</p>
+                </Link>
+              </div>
+              <div className="grid grid-cols-4 items-center gap-4">
+                <Link
                   to="/sign-up"
                   className={`${buttonVariants({
                     variant: "link",
@@ -93,6 +103,7 @@ const Navbar = () => {
                   <p className="text-3xl">登入</p>
                 </Link>
               </div>
+              
             </div>
           </SheetContent>
         </Sheet>

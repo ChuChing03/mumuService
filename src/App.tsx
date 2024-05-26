@@ -8,6 +8,7 @@ import {
   SignInForm,
   SignUpForm,
   Social,
+  Service,
 } from "./views/root/pages";
 import FormsLayout from "./views/root/FormsLayout";
 import Explore from "./views/root/pages/Explore";
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/social" element={<Social />} />
             <Route path="/about" element={<About />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/service" element={<Service />} />
           </Route>
 
           <Route element={<FormsLayout />}>
